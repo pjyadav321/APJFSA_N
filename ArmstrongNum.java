@@ -34,5 +34,5 @@ public class ArmstrongNum {
 /*
     OUTPUT:
         Enter a number: 153
-        153 is an Armstrong number.
+        153 is an Armstrong number.   
  */
