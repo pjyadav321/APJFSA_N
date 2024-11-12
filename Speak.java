@@ -1,22 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/*
+Create an interface called "Person" with a method called "speak".
+Create two classes  called "Student" and "Teacher" that implement  the Person
+interface and implement the "speak" method. Create objects of both the
+Student and  Teacher classes and call their respective "speak"  methods.
+ */
+
 // Define the interface
-interface Person {
+interface Person 
+{
     void speak();  // Abstract method to be implemented by classes
 }
 
 // Student class implementing Person interface
-class Student implements Person {
-    @Override
-    public void speak() {
+class Student implements Person 
+{
+    public void speak() 
+    {
         System.out.println("I am a student. I am here to learn.");
     }
 }
 
 // Teacher class implementing Person interface
-class Teacher implements Person {
-    @Override
-    public void speak() {
+class Teacher implements Person 
+{
+    public void speak() 
+    {
         System.out.println("I am a teacher. I am here to teach.");
     }
 }
